@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Coders Siss</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+    <h1>hola</h1>
+    <button id="boton-suma"></button>
+    <button id="boton-resta"></button>
+<main>
+    <section class="botones">
+        <button id="startButton" class="button" onclick="playAudio()"><img src="./assets/bowser.png" width="100px" alt="Añadir Coder"></button>
+        <button id="resetButton" class="button" onclick="pauseAudio()"><img src="./assets/botonresta-removebg-preview.png" width="100px" alt="Resetear"></button>
+    </section>
+    <section class="add-coders">
+        <input id="addCoder" type="text" placeholder="Insert a Name">
+        <button id="addButton" class="button"><img src="./assets/botonsuma-removebg-preview.png" width="100px" alt="Añadir Coder"></button>
+    </section>
+    <section id="result-display">
+        <div>
+            <p id="display-message"></p>
+        </div>
+    </section>
+    <section id="coderList">
+        
+    </section>
+
+    <audio id="myAudio">
+        <source src="./audio/bowser matando.mp3" type="audio/wav">
+        <source src="./audio/bowser matando.mp3" type="audio/mpeg">
+    </audio> 
+      
+</main>
+
+    <script src="script.js"></script>
+</body>
+</html>
