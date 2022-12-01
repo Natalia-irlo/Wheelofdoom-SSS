@@ -1,0 +1,118 @@
+
+body{
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-text-center{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    max-width: 200px;
+    margin-top: 40px;
+    margin-left: 15px;
+    z-index: 1;
+}
+.audio-pag1{
+    z-index: 0;
+}
+.start{
+    margin-top: 40px;
+    margin-left: 35px;
+    transition: all 0.5s linear;
+}
+.bowser-gif{
+    margin-top: 38px;
+    position: absolute;
+}
+.start:hover {
+    transform: scale(02);
+}
+.audio-pag1 source{
+    
+
+}
+@media only screen and (min-width: 768px) {
+    body{
+        background-image: url('../assets/ipad.jpg');
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size: cover;
+    }
+    .container-text-center{
+        display: flex;
+        justify-content: center;
+    }
+    .logo img{
+        max-width: 400px;
+        margin-top: 50px;
+    }
+    .start img{
+        width: 280px;
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    .bowser-gif img{
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+}
+@media only screen and (min-width: 820px){
+    body{
+        background-image: url('../assets/ipad.jpg');
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size: cover;
+    }
+    .container-text-center{
+        display: flex;
+        justify-content: center;
+    }
+    .logo img{
+        max-width: 420px;
+        margin-top: 60px;
+    }
+    .start img{
+        width: 300px;
+        margin-top: 60px;
+        margin-left: 35px;
+    }
+    .bowser-gif img{
+        width: 330px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    body{
+        background-image: url('../assets/ordenador.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment:fixed;
+        background-size: cover;
+        
+    }
+    .container-text-center{
+        display: flex;
+        justify-content: center;
+    }
+    .logo img{
+        max-width: 300px;
+        margin-top: 40px;
+    }
+    .start img{
+        width: 230px;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    .bowser-gif img{
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 20px;
+        position: relative;
+    }
+}
