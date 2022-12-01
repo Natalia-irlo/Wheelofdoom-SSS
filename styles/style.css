@@ -1,8 +1,56 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");*/
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.bowser{
+  margin-top: 370px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 180px;
+}
+.castleBtn{
+  margin-left: 350px;
+  width: 80px;
+  height: 90px;
+}
+.bowser1{
+  width: 40px;
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
     background-image: url(../assets/background.jpg);
     background-size: cover;
     max-width: 50%;
@@ -11,8 +59,6 @@ button{
     padding: 0;
     margin: 0;
 }
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 #coderList {
   display: flex;
@@ -58,4 +104,4 @@ button{
   background-image: url("../assets/caja1.gif");
   background-size: cover;
 
-}
+}*/
