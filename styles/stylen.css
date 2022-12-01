@@ -31,10 +31,7 @@ body{
 .start:hover {
     transform: scale(02);
 }
-.audio-pag1 source{
-    
 
-}
 @media only screen and (min-width: 768px) {
     body{
         background-image: url('../assets/ipad.jpg');
@@ -111,8 +108,7 @@ body{
     }
     .bowser-gif img{
         width: 300px;
-        margin-top: 50px;
+        margin-top: 5px;
         margin-left: 20px;
-        position: relative;
     }
 }
