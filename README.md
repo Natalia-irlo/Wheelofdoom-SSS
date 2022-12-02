@@ -25,4 +25,4 @@ Super Coders Siss is a game similar to a Wheel of Dome in which the life of its 
 Clone my repository from GitHub with git clone https://github.com/Natalia-irlo/Wheelofdoom-SSS.git
 
 # License
-##© Super Coders Siss
+© Super Coders Siss
