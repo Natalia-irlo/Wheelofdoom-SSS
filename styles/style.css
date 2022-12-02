@@ -1,5 +1,5 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -10,15 +10,63 @@ body{
   background-size: 100% 100%;
   background-attachment: fixed;
 }
+h1{
+  color: teal;
+  font-size: 30px;
+  font-weight: bold;
+}
+.form-section{
+  margin-bottom: 0px;
+  margin-right: 0;
+}
+form input{
+  width: 200px;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 0 5px;
+}
+form button{
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: teal;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+  width: 250px;
+}
+ul li{
+  width: 100%;
+  background: white;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 5px;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  margin: 5px 0;
+}
+ul li span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  text-align: center;
+  background: orangered;
+}
 .bowser{
-  margin-top: 370px;
-  margin-left: 300px;
+  margin-top: 110px;
+  margin-left: 370px;
   margin-bottom: 20px;
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
 }
 .castleBtn{
-  margin-left: 350px;
+  margin-left: 420px;
   width: 80px;
   height: 90px;
 }
@@ -26,82 +74,131 @@ body{
   width: 40px;
   height: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*body{
-    background-image: url(../assets/background.jpg);
-    background-size: cover;
-    max-width: 50%;
+.mario{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
 }
-button{
-    padding: 0;
-    margin: 0;
+.luigi{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.birdo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.bomb{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.boo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.cheepcheep{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.daisy{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.donky{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.koopa{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.mushroom{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.peach{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.plant{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.rosalina{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.shy-guy{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.star{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.toad{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.waluigi{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.toadette{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.wario{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.yoshi{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
 }
 
-#coderList {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  font-size: medium;
-  text-align: center;
-  font-weight: 200;
-  font-family: Montserrat, helvetica;
-  perspective: 1000px;
-}
 
-#coderList p {
-  align-self: flex-end;
-  font-size: 30px;
-  text-shadow: 1px 1px darkgray;
-}
 
-#coderList {
-  text-align: center;
-  font-size: medium;
-  font-weight: 200;
-  font-family: Montserrat, helvetica;
-}
 
-#coderList article {
-  display: flex;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
-  padding: 50px;
-  margin: 20px;
-  border-radius: 15px;
-  background-color: transparent;
-}
 
-.alive {
-  background-image: url("../assets/mario-unscreen.gif");
-  background-size: cover;
-}
 
-.dead {
-  background-image: url("../assets/caja1.gif");
-  background-size: cover;
 
-}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
