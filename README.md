@@ -1,12 +1,11 @@
 # Super Coders Siss
 > Super Coders Siss
 # Description
+Super Coders Siss is a game similar to a Wheel of Dome in which the life of its participants will depend exclusively on chance.
 # Build Status
 
 # Code Style
 
-# Logo
-![This is an image] https://github.com/georgette949/SuperCoderSiss/blob/a8eaf777aec01c7d1e5c193a9b49cb29b00e1daa/assets/super%20coders.png
 # Contributors
 **Georgette Velasco**: Scrum Master and Developer
 
