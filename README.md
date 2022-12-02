@@ -3,7 +3,7 @@
 # Description
 Super Coders Siss is a game similar to a Wheel of Dome in which the life of its participants will depend exclusively on chance.
 # Build Status
-
+<img src="https://github.com/Natalia-irlo/Wheelofdoom-SSS/blob/luigi/assets/super%20coders.png?raw=true" alt="Logo">
 # Code Style
 
 # Contributors
