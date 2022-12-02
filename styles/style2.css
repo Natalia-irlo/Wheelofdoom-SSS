@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (min-width: 768px) {
+  body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  #attackButton{
+    margin-top: 180px;
+    margin-left: 370px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  #resetButton{
+    margin-left: 420px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    background: teal;
+    color: white;
+    outline: none;
+    cursor: pointer;
+  }
+  #userInput{
+    margin-top: 40px;
+    align-content: center;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+  }
+  #createUserBtn{
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+  }
+  #usersList{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+  }
+  #usersList{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (min-width: 820px){
+  body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  #attackButton{
+    margin-top: 180px;
+    margin-left: 370px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  #resetButton{
+    margin-left: 420px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    background: teal;
+    color: white;
+    outline: none;
+    cursor: pointer;
+  }
+  #userInput{
+    margin-top: 40px;
+    align-content: center;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+  }
+  #createUserBtn{
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+  }
+  #usersList{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+  }
+  #usersList{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+}
+@media only screen and (min-width: 1024px){
+  body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  #attackButton{
+    margin-top: 120px;
+    margin-left: 370px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  #resetButton{
+    margin-left: 420px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    background: teal;
+    color: white;
+    outline: none;
+    cursor: pointer;
+  }
+  #userInput{
+    margin-top: 40px;
+    align-content: center;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+  }
+  #createUserBtn{
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+  }
+  #usersList{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+  }
+  #usersList{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+}
